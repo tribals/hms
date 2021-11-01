@@ -1,0 +1,5 @@
+{:aliases {:native-image
+           {:extra-deps
+            {luchiniatwork/cambada {:mvn/version "1.0.5"}}
+            :main-opts ["-m" "cambada.native-image"
+                        "-m" "hms.core"]}}}
